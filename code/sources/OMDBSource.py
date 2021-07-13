@@ -1,8 +1,8 @@
 import requests
 from pprint import PrettyPrinter
 import json
-from objects.Content import Content
-from settings import APIKeys
+from code.objects.Content import Content
+from code.settings import APIKeys
 
 pp = PrettyPrinter()
 

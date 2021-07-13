@@ -1,4 +1,4 @@
-from sources import TMDBSource, WatchModeSource, OMDBSource
+from code.sources import TMDBSource, WatchModeSource, OMDBSource
 
 #Get a query of content
 query = input("Enter the content name: ")

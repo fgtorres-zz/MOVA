@@ -1,7 +1,7 @@
 import urllib.request
 import json
-from objects.Content import Content
-from settings import APIKeys
+from code.objects.Content import Content
+from code.settings import APIKeys
 
 
 #API KEY FREE FROM  https://api.watchmode.com
