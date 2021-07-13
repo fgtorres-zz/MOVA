@@ -2,11 +2,11 @@ import requests
 from pprint import PrettyPrinter
 import json
 from Content import Content
-
+import APIKeys
 pp = PrettyPrinter()
 
 #API KEY FREE FROM  http://www.omdbapi.com/
-apiKey = ''
+
 
 #Convert to content
 def toContent(response):
@@ -20,6 +20,7 @@ def toContent(response):
     new.release_year = contentjson["Released"]
     new.sinopse = contentjson["Plot"]
     new.score = contentjson["imdbRating"]
+    new.type = contentjson["Type"]
 
     return new
 
@@ -27,7 +28,7 @@ def toContent(response):
 #Function to Integrated with OMDB
 def search(title):
     #Fetch Movie Data with Full Plot
-    data_URL = 'http://www.omdbapi.com/?apikey='+apiKey
+    data_URL = 'http://www.omdbapi.com/?apikey='+APIKeys.apiKeyOMDB
     year = ''
     movie = title
     params = {
