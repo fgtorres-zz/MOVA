@@ -36,7 +36,7 @@ def search(imdbid):
 def searchDetails(id):
     # Fetch Movie Data with Full Plot
     id = str(id)
-    data_URL = 'https://api.watchmode.com/v1/title/' +id + '/details/?apiKey=' + apiKey
+    data_URL = 'https://api.watchmode.com/v1/title/' +id + '/details/?apiKey=' + APIKeys.apiKeyWatchMode
     with urllib.request.urlopen(data_URL) as url:
         data = json.loads(url.read().decode())
         return toContent(data)
