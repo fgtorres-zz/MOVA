@@ -1,12 +1,7 @@
-import TMDBSource
-from Content import Content
-import OMDBSource
-import WatchModeSource
+from sources import TMDBSource, WatchModeSource, OMDBSource
 
 #Get a query of content
-#query = input("Enter the content name: ")
-
-query = "Bad boys"
+query = input("Enter the content name: ")
 
 contentOMDB = OMDBSource.search(query)
 

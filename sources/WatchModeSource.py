@@ -1,7 +1,8 @@
 import urllib.request
 import json
-from Content import Content
-import APIKeys
+from objects.Content import Content
+from settings import APIKeys
+
 
 #API KEY FREE FROM  https://api.watchmode.com
 
@@ -26,7 +27,7 @@ def toContent(response):
 #Function to Integrated with OMDB
 def search(imdbid):
     #Fetch Movie Data with Full Plot
-    data_URL = 'https://api.watchmode.com/v1/search/?apiKey='+APIKeys.apiKeyWatchMode+'&search_field=imdb_id&search_value='+imdbid
+    data_URL = 'https://api.watchmode.com/v1/search/?apiKey=' + APIKeys.apiKeyWatchMode + '&search_field=imdb_id&search_value=' + imdbid
 
     with urllib.request.urlopen(data_URL) as url:
         data = json.loads(url.read().decode())
@@ -36,7 +37,7 @@ def search(imdbid):
 def searchDetails(id):
     # Fetch Movie Data with Full Plot
     id = str(id)
-    data_URL = 'https://api.watchmode.com/v1/title/' +id + '/details/?apiKey=' + APIKeys.apiKeyWatchMode
+    data_URL = 'https://api.watchmode.com/v1/title/' + id + '/details/?apiKey=' + APIKeys.apiKeyWatchMode
     with urllib.request.urlopen(data_URL) as url:
         data = json.loads(url.read().decode())
         return toContent(data)

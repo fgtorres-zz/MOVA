@@ -1,9 +1,9 @@
-import requests
 from pprint import PrettyPrinter
 import json
 import urllib.request
-from Content import Content
-import APIKeys
+from objects.Content import Content
+from settings import APIKeys
+
 pp = PrettyPrinter()
 
 #API KEY FREE FROM  https://developers.themoviedb.org/
@@ -45,7 +45,7 @@ def toContent(response, type,imdbid):
 #Function to Integrated with OMDB
 def search(imdbid):
     #Fetch Movie Data with Full Plot
-    data_URL = 'https://api.themoviedb.org/3/find/'+imdbid+'?api_key='+APIKeys.apiKeyTMDB+'&language=en-US&external_source=imdb_id'
+    data_URL = 'https://api.themoviedb.org/3/find/' + imdbid +'?api_key=' + APIKeys.apiKeyTMDB + '&language=en-US&external_source=imdb_id'
 
     with urllib.request.urlopen(data_URL) as url:
         data = json.loads(url.read().decode())

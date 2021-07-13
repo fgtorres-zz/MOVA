@@ -1,8 +1,9 @@
 import requests
 from pprint import PrettyPrinter
 import json
-from Content import Content
-import APIKeys
+from objects.Content import Content
+from settings import APIKeys
+
 pp = PrettyPrinter()
 
 #API KEY FREE FROM  http://www.omdbapi.com/
@@ -28,7 +29,7 @@ def toContent(response):
 #Function to Integrated with OMDB
 def search(title):
     #Fetch Movie Data with Full Plot
-    data_URL = 'http://www.omdbapi.com/?apikey='+APIKeys.apiKeyOMDB
+    data_URL = 'http://www.omdbapi.com/?apikey=' + APIKeys.apiKeyOMDB
     year = ''
     movie = title
     params = {
