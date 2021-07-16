@@ -26,6 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="9ae793cd-ff83-4979-bff3-c916ecf01a2d" />
   <component name="ProjectId" id="1vE4n6dQRLJTPbOFHo2CfV62LrU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,8 +45,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.MovaCLI (1)">
-    <configuration name="GetGender" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Felipe Torres\Documents\MOVA\datasets" />
+      <recent name="C:\Users\Felipe Torres\Documents\MOVA\code" />
+      <recent name="C:\Users\Felipe Torres\Documents\MOVA\objects" />
+      <recent name="C:\Users\Felipe Torres\Documents\MOVA\algorithms" />
+      <recent name="C:\Users\Felipe Torres\Documents\MOVA\settings" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Sentimental">
+    <configuration name="INMETSource" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MOVA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,12 +63,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/sources" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Felipe Torres\Documents\GetGender\GetGender.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/sources/INMETSource.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OMDBSource" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Sentimental" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MOVA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,12 +151,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/algorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Felipe Torres\Documents\GetGender\OMDBSource.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/algorithms/Sentimental.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Sentimental" />
+        <item itemvalue="Python.INMETSource" />
         <item itemvalue="Python.MovaCLI (1)" />
         <item itemvalue="Python.NLTK" />
         <item itemvalue="Python.MovaCLI" />
-        <item itemvalue="Python.OMDBSource" />
-        <item itemvalue="Python.GetGender" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +187,7 @@
       <updated>1626114077886</updated>
       <workItem from="1626114081131" duration="7361000" />
       <workItem from="1626172157956" duration="34000" />
-      <workItem from="1626172653904" duration="14562000" />
+      <workItem from="1626172653904" duration="37777000" />
     </task>
     <servers />
   </component>
@@ -197,38 +207,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1626198704693">
+    <state width="1340" height="282" key="GridCell.Tab.0.bottom" timestamp="1626447073880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626198704693" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1626198704693">
+    <state width="1340" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1626444660687" />
+    <state width="1340" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626447073880" />
+    <state width="1340" height="282" key="GridCell.Tab.0.center" timestamp="1626447073880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626198704693" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1626198704693">
+    <state width="1340" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1626444660687" />
+    <state width="1340" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626447073880" />
+    <state width="1340" height="282" key="GridCell.Tab.0.left" timestamp="1626447073880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626198704693" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1626198704693">
+    <state width="1340" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1626444660687" />
+    <state width="1340" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626447073880" />
+    <state width="1340" height="282" key="GridCell.Tab.0.right" timestamp="1626447073880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626198704693" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1626186532727">
+    <state width="1340" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1626444660687" />
+    <state width="1340" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626447073880" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1626352056382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626186532727" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1626186532727">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626352056382" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1626352056381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626186532727" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1626186532727">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626352056381" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1626352056381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626186532727" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1626186532727">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626352056381" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1626352056382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626186532727" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1626352056382" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1626188923823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -236,8 +250,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MOVA$MovaCLI.coverage" NAME="MovaCLI Coverage Results" MODIFIED="1626188407260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MOVA$INMETSource.coverage" NAME="INMETSource Coverage Results" MODIFIED="1626368645549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/sources" />
+    <SUITE FILE_PATH="coverage/MOVA$Sentimental.coverage" NAME="Sentimental Coverage Results" MODIFIED="1626447073869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/algorithms" />
     <SUITE FILE_PATH="coverage/GetGender$IDB_Plugin.coverage" NAME="IDB-Plugin Coverage Results" MODIFIED="1626117342242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MOVA$MovaCLI__1_.coverage" NAME="MovaCLI (1) Coverage Results" MODIFIED="1626198704684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MOVA$MovaCLI__1_.coverage" NAME="MovaCLI (1) Coverage Results" MODIFIED="1626271615192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GetGender$GetGender__1_.coverage" NAME="GetGender (1) Coverage Results" MODIFIED="1626121253829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MOVA$NLTK.coverage" NAME="NLTK Coverage Results" MODIFIED="1626198622756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GetGender$ODBMSource.coverage" NAME="OMDBSource Coverage Results" MODIFIED="1626119526438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

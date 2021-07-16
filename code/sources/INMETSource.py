@@ -43,3 +43,10 @@ def search(title):
     json_object = json.dumps(response, indent=4)
     return toContent(json_object)
 
+#Fetch Movie Data with Full Plot
+data_URL = 'https://apitempo.inmet.gov.br/valores/extremos/TMAX/2021-07-15/20/estado/BA'
+params = {
+    'abrangencia':'BA',
+}
+response = requests.get(data_URL,params=params).json()
+print(response)
